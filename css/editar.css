@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700);
+@import url(https://fonts.googleapis.com/css?family=Play:700);
+
+body{
+    background: #FFFFFF;
+}
+.menu,
+#nav{
+    margin-top: 0px;
+    margin-left:120px;
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+    height:25px; 
+    width:615px;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+#nav a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding:15px;
+}
+
+#nav li {
+    margin-top: 5px;
+    color:#fff;
+}
+
+#nav ul li {
+    float:left; 
+    display:inline; 
+    padding:2px; 
+    margin-left:1px;
+}
+
+#nav ul li a{ 
+    text-decoration:none; 
+    text-transform:capitalize;  
+}
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu,
+.sub-menu {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #069;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background: #FFFFFF;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+.sub-menu li:hover {
+   
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+
+#main {
+    height:500px; 
+    width:657px;
+    margin-left:250px;
+}
+
+#header {
+    margin-left:120px;
+    height:250px;
+    width:657px;
+}
+
+#header img{
+    height:250px;
+}
+
+#editar1 {
+    border-radius:10px;
+    border:solid 1px #069;
+    margin-left:120px;
+    float:left;
+    height:450px;
+    width:655px;    
+}
+
+#editar1 table {
+    margin-left:100px;
+    float:left;
+    height:150px;
+    width:155px;    
+}
+
+#editar1 input {
+    margin-left:100px;
+    float:left;
+    width:155px;    
+}
+
+#editar1 p {
+    font-size: 17px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    text-align: center;
+}
+
+#editar1 label { 
+    margin-left: 250px;
+    margin-top: 1px;
+}
+
+#imagens_editar td select {
+    border-color: #000000;
+    border-radius: 6px;
+    color: #069;
+    font-size: 15px;
+    font-family: 'Play', cursive;
+    margin-left: 90px;
+    width: 253px;
+}
+
+#imagens_editar label {
+    border-color: #000000;
+    border-radius: 6px;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Play', cursive;
+    margin-left: 90px;
+    width: 253px;
+}
+
+#content label {
+    font-size: 15px;
+    font-family: 'Play', cursive;
+    margin-left: 100px;
+}
+
+#content input {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    font-size:15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #069;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+
+#content_editar label {
+    font-size: 15px;
+    font-family: 'Play', cursive;
+    margin-left: 100px;
+}
+
+#content_editar input {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    font-size:15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #069;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+
+#content_editar select {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    color: #069;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+
+#checkbox label {
+    font-size: 15px;
+    font-family: 'Play', cursive;
+    margin-left: 100px;
+    float: left;
+}
+
+#checkbox input {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    font-size:15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #069;
+    margin-left: 1px;
+    float: left;
+}
+
+#editar_btn .btn{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-family: tahoma;
+    font-size:15px;
+    color: #000;
+    background: -webkit-linear-gradient(#FFFFFF, #069); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #069); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #069); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #069); /* Standard syntax */
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px #069;
+}
+
+#editar_btn .btn:hover{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-family: tahoma;
+    font-size: 15px;
+    color: #FFF;
+    background: -webkit-linear-gradient(#FFFFFF, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #000); /* Standard syntax */
+    border-radius:5px 5px;
+    box-shadow:1px 1px #000;
+}
+
+#editar_btn_imagens .btn{
+    margin-top: 10px;
+    margin-left: 250px;
+    font-family: tahoma;
+    font-size:15px;
+    color: #000;
+    background: -webkit-linear-gradient(#FFFFFF, #069); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #069); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #069); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #069); /* Standard syntax */
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px #069;
+}
+
+#editar_btn_imagens .btn:hover{
+    margin-top: 10px;
+    margin-left: 250px;
+    font-family: tahoma;
+    font-size: 15px;
+    color: #FFF;
+    background: -webkit-linear-gradient(#FFFFFF, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #000); /* Standard syntax */
+    border-radius:5px 5px;
+    box-shadow:1px 1px #000;
+}
+
+#footer {
+    margin-top:250px;
+    margin-left:370px;
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+    height:25px; 
+    width:657px;
+    box-shadow:1px 1px 1px 1px #069;
+}

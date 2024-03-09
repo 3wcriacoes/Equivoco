@@ -1,0 +1,326 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700);
+@import url(https://fonts.googleapis.com/css?family=Play:700);
+
+body{
+    background: #FFFFFF;
+}
+.menu,
+#nav{
+    margin-top: 0px;
+    margin-left:120px;
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+    height:25px; 
+    width:615px;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+#nav a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding:15px;
+}
+
+#nav li {
+    margin-top: 5px;
+    color:#fff;
+}
+
+#nav ul li {
+    float:left; 
+    display:inline; 
+    padding:2px; 
+    margin-left:1px;
+}
+
+#nav ul li a{ 
+    text-decoration:none; 
+    text-transform:capitalize;  
+}
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu,
+.sub-menu {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #069;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background: #FFFFFF;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+
+#main {
+    height:500px; 
+    width:657px;
+    margin-left:250px;
+}
+
+#header {
+    margin-left:120px;
+    height:250px;
+    width:657px;
+}
+
+#header img{
+    height:250px;
+}
+
+#parte1 {
+    margin-left:120px;
+    float:left;
+    height:450px;
+    width:655px;    
+    border-radius:10px;
+    border:solid 1px #069;
+}
+
+#parte1 img {
+    width: 16px;
+}
+
+#sessao1 {
+    border-radius:10px;
+    border:solid 1px #069;
+    margin-left:120px;
+    float:left;
+    height:450px;
+    width:655px;    
+}
+
+#consultas h3 {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    margin-left: 50px;
+}
+
+#consultas table {
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 0%;
+}
+
+#consultas td {
+    border: 1px solid;
+    border-color: #000000;
+    border-bottom-right-radius: 6px;
+    font-size: 15px;
+    font-family: 'Tahoma';
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+#consultas label {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    text-align: center;
+    height: 10px;
+}
+
+#consultas td img {
+    width: 16px;
+}
+
+#paginacao td {
+    font-size: 17px;
+    font-family: 'Play', cursive;
+    color: #000000;
+    text-decoration-line: none;
+}
+
+a:link {
+color:#000000;
+text-decoration:none;
+}
+a:visited {
+color:#000000;
+text-decoration:none;
+}
+a:hover {
+color:#000000;
+text-decoration:underline;
+}
+a:active {
+color:#000000;
+text-decoration:underline;
+background-color:#000000;
+}
+
+#consultas p {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    text-align: center;
+}
+
+#consultas img{
+    width: 100px;
+    position: relative;
+    top: 50%;
+}
+
+#ico td{
+    width: 30px;
+
+}
+
+#ico img{
+    width: 16px;
+    position: relative;
+    top: 50%;
+}
+
+#consultas_imagens table {
+    width: 600px;
+    margin-left: 30px;
+}
+
+#consultas_imagens td {
+    border: 1px solid;
+    border-color: #000000;
+    border-bottom-right-radius: 6px;
+    font-size: 15px;
+    font-family: 'Tahoma';
+    color: #000000;
+    text-align: center;
+    width: 50%;
+}
+
+#consultas_imagens label {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    text-align: center;
+}
+
+#consultas_imagens img{
+    width: 100px;
+    position: relative;
+    top: 50%;
+}
+
+#imagem1 {
+    width: 320px;
+    height: 450px;
+    float: left;
+}
+
+#imagem2 {
+    width: 320px;
+    height: 450px;
+    margin-left: 330px;
+
+}
+
+#imagens table {
+    width: 400px;
+    margin-left: 30px;
+}
+
+#imagens td {
+    font-size: 15px;
+    font-family: 'Tahoma';
+    color: #000000;
+
+}
+
+#imagens label {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+}
+
+#imagens p {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    text-align: center;
+}
+
+#imagens img {
+    width: 16px;
+}
+
+#form_mostra_fotos td img {
+    margin-top: 90px;
+    margin-left: 5px;
+    width: 380px;
+}
+
+#form_mostra_dados table {
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+#form_mostra_dados label {
+    font-size: 15px;
+    font-family: 'Passion One', cursive;
+    color: #000000;
+    margin-left: 35px;
+}
+
+#form_mostra_dados input {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    font-size:15px;
+    font-family: 'Play', cursive;
+    color: #069;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 6px;
+}
+
+.checkbox {
+    background: #069;
+    width: 10px;
+    margin-left: 300px;
+}
+
+#footer {
+    margin-top:250px;
+    margin-left:370px;
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+    height:25px; 
+    width:657px;
+    box-shadow:1px 1px 1px 1px #069;
+}

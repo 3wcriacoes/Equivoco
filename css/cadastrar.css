@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700);
+@import url(https://fonts.googleapis.com/css?family=Play:700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Confgurando o topo da página */
+.header {
+    margin-left: 25%;
+    width: 248px;
+}
+
+/* Configurando o menu da página */
+body{
+    background: #FFFFFF;
+}
+.menu,
+#nav{
+    margin-top: 0px;
+    margin-left:120px;
+    background: -webkit-linear-gradient(#FFFFFF, #CCCCCC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #CCCCCC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #CCCCCC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #CCCCCC); /* Standard syntax */
+    height:25px; 
+    width:615px;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+#nav a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding:15px;
+}
+
+#nav li {
+    margin-top: 5px;
+    color:#fff;
+}
+
+#nav ul li {
+    float:left; 
+    display:inline; 
+    padding:2px; 
+    margin-left:1px;
+}
+
+#nav ul li a{ 
+    text-decoration:none; 
+    text-transform:capitalize;  
+}
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu,
+.sub-menu {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #069;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background: #FFFFFF;
+    box-shadow:1px 1px 1px 1px #069;
+}
+
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+
+
+/* Configurando a sessão do formulário */
+.container {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25%;
+    width: 657px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_integrante {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 657px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurando o formulário de entrada de dados */
+.formulario {
+    position: absolute;
+    width: 400px;
+    background: rgba(158, 18, 18, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    z-index: -1;
+}
+
+.formulario .inputBox {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.formulario .inputBox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(76, 88, 131);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.formulario .inputBox input::placeholder {
+    color: rgb(76, 88, 131);
+}
+
+.formulario h4 {
+    position: relative;
+    color: rgb(76, 88, 131);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulario h4::before {
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: rgb(76, 88, 131);
+}
+
+.btn input[type="submit"] {
+    background: rgb(76, 88, 131);
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Configurando o rodapé da página */
+.footer {
+    margin-top: 0px;
+    margin-left:25%;
+    background: -webkit-linear-gradient(#12f34a, #357c3f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#12f34a, #357c3f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#12f34a, #357c3f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#12f34a, #357c3f); /* Standard syntax */
+    height:25px; 
+    width:652px;
+    box-shadow:1px 1px 1px 1px rgb(48, 134, 55);
+}
+
+.footer_integrante {
+    margin-top:50px;
+    margin-left:25%;
+    background: -webkit-linear-gradient(#12f34a, #357c3f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#12f34a, #357c3f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#12f34a, #357c3f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#12f34a, #357c3f); /* Standard syntax */
+    height:25px; 
+    width:657px;
+    box-shadow:1px 1px 1px 1px rgb(48, 134, 55);
+}
